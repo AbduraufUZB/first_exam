@@ -7,6 +7,8 @@ class ColorConst {
   static Color kBlack = const Color(0XFF000000);
   static Color kFacebook = const Color(0XFF395998);
   static Color kGoogle = const Color(0XFF4285F5);
+  static Color kOrangeBtn = const Color(0XFFF4B762);
+  static Color kOrangeBack = const Color(0XFFFCEBD2);
 }
 
 class FontConst {
