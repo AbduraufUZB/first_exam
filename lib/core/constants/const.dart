@@ -5,6 +5,8 @@ class ColorConst {
   static Color kTextSecondaryColor = const Color(0XFF959595);
   static Color kWhite = const Color(0XFFFFFFFF);
   static Color kBlack = const Color(0XFF000000);
+  static Color kFacebook = const Color(0XFF395998);
+  static Color kGoogle = const Color(0XFF4285F5);
 }
 
 class FontConst {

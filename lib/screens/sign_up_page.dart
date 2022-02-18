@@ -1,5 +1,6 @@
 import 'package:first_exam/core/constants/const.dart';
 import 'package:first_exam/data/user_info.dart';
+import 'package:first_exam/widgets/facebook_google.dart';
 import 'package:first_exam/widgets/myappbar_widget.dart';
 import 'package:first_exam/widgets/mytext_widget.dart';
 import 'package:first_exam/widgets/scaffold_messanger.dart';
@@ -235,7 +236,10 @@ class _SignUpState extends State<SignUp> {
                 ),
               ),
             ),
-            
+            const SizedBox(height: 24,),
+            Center(child: MyText(text: "By Signing up you agree to our Terms", size: FontConst.kMediumFont, color: ColorConst.kTextSecondaryColor,)),
+            Center(child: MyText(text: "Conditions & Privacy Policy.", size: FontConst.kMediumFont, color: ColorConst.kTextSecondaryColor,)),
+            FacebookGoogle.facebookGoogle()
           ],
         ),
       ),

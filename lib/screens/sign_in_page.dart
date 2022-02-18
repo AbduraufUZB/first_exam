@@ -1,5 +1,6 @@
 import 'package:first_exam/core/constants/const.dart';
 import 'package:first_exam/data/user_info.dart';
+import 'package:first_exam/widgets/facebook_google.dart';
 import 'package:first_exam/widgets/myappbar_widget.dart';
 import 'package:first_exam/widgets/mytext_widget.dart';
 import 'package:first_exam/widgets/scaffold_messanger.dart';
@@ -54,7 +55,7 @@ class _SignInPageState extends State<SignInPage> {
               color: ColorConst.kTextSecondaryColor,
             ),
             const SizedBox(
-              height: 34,
+              height: 20,
             ),
             TextFormField(
               controller: _emailController,
@@ -124,14 +125,14 @@ class _SignInPageState extends State<SignInPage> {
               ),
             ),
             const SizedBox(
-              height: 20,
+              height: 10,
             ),
             Center(
                 child: TextButton(onPressed: (){
                   Navigator.pushNamed(context, "/signup");
                 }, child: MyText(text: "Forgot password", size: FontConst.kSmallFont, color: ColorConst.kTextSecondaryColor))),
             const SizedBox(
-              height: 20,
+              height: 10,
             ),
             Center(
               child: ElevatedButton(
@@ -174,6 +175,7 @@ class _SignInPageState extends State<SignInPage> {
                 }, child: MyText(text: "Create new account", size: FontConst.kSmallFont, color: ColorConst.kPrimaryColor))
               ],
             ),
+            FacebookGoogle.facebookGoogle()
           ],
         ),
       ),
