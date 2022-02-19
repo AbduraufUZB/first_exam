@@ -1,25 +1,41 @@
 import 'package:flutter/material.dart';
+
 class UserInfo {
   static List<Map<String, String>> users = [
     {"Abdurauf": "9706411"},
     {"zemeister": "4905072"},
   ];
 
+  static List dataRadio = [
+    "Chocolate Chip",
+    "Cookies and Cream",
+    "Funfetti",
+    "M and M",
+    "Red Velvel",
+    "Peanut Butter",
+    "Snickerdoodle",
+    "White Chocolate Macadamia"
+  ];
+
+
   static List data = [
     {
       "image": "assets/photos/mcDonalds.png",
       "text": "McDonald's",
-      "desc" : "McDonald's (MCD) is a fast food, limited service restaurant with more than 35,000 restaurants in over 100 countries.",
+      "desc":
+          "McDonald's (MCD) is a fast food, limited service restaurant with more than 35,000 restaurants in over 100 countries.",
     },
     {
       "image": "assets/photos/cafeBrichor.png",
       "text": "Cafe Brishor's",
-      "desc" : "Prince est un restaurant apportez votre vin haut de gamme aux saveurs du marché",
+      "desc":
+          "Prince est un restaurant apportez votre vin haut de gamme aux saveurs du marché",
     },
     {
       "image": "assets/photos/cafeBrichorSecond.png",
       "text": "Cafe Brishor's",
-      "desc" : "Shortbread, chocolate turtle cookies, and red velvet. 8 ounces cream cheese, softened.",
+      "desc":
+          "Shortbread, chocolate turtle cookies, and red velvet. 8 ounces cream cheese, softened.",
     },
   ];
 }
@@ -36,22 +52,19 @@ class Datas {
   static List bottomBarItems = [
     {
       'icon': const Icon(Icons.restaurant),
-      'label' : "Home",
+      'label': "Home",
     },
-
     {
       'icon': const Icon(Icons.search),
-      'label' : "Search",
+      'label': "Search",
     },
-
     {
       'icon': const Icon(Icons.call_to_action),
-      'label' : "Orders",
+      'label': "Orders",
     },
-
     {
       'icon': const Icon(Icons.person),
-      'label' : "Profile",
+      'label': "Profile",
     },
   ];
 
