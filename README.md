@@ -8,5 +8,5 @@ Fast Foodlar uchun ilova
 
 <p>
 
-![CHEESE!](./screenshots/onboardingpage.jpg)
-<a href = "./libs/screens/home_page.dart">Home</a>
+![CHEESE!](./screenshots/onboardingpage.jpg) </p>
+<a href = "./lib/screens/on_boarding_page.dart">On Boarding Page</a>
