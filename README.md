@@ -11,7 +11,5 @@ Fast Foodlar uchun ilova
 ![CHEESE!](./screenshots/onboardingpage.jpg) </p>
 <a href = "./lib/screens/on_boarding_page.dart">On Boarding Page</a>
 <p>
-</p>
-<p>
 ![CHEESE!](./screenshots/signinpage.jpg) </p>
 <a href = "./lib/screens/sign_in_page.dart">Sign in Page</a>
