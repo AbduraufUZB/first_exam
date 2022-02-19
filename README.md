@@ -8,4 +8,4 @@ Fast Foodlar uchun ilova
 
 <p>
 
-![CHEESE!](onboardingpage.jpg)
+![CHEESE!](./screenshots/onboardingpage.jpg)
